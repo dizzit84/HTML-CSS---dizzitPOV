@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pl">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+    <head>
+        <title>dizzit POV</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+	<meta name="description" content="moje hobby">
+	<meta name="keywords" content="programowanie, gitara, samoloty, gotowanie, planszówki">
+	<meta name="author" content="dizzit">	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="dizzitcss.css" type="text/css">
+        <link rel="stylesheet" href="fontello1/css/fontello.css" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Bigelow+Rules" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+	
+    <script src="jquery-3.2.1.min.js"></script>	
+    <script>
+    $(document).ready(function() {
+	var NavY = $('.mnav').offset().top;
+	 
+	var stickyNav = function()
+        {
+	var ScrollY = $(window).scrollTop();	  
+	if (ScrollY > NavY) {$('.mnav').addClass('sticky');}
+        else {$('.mnav').removeClass('sticky');}
+	};
+	 
+	stickyNav();
+	$(window).scroll(function() { stickyNav(); });
+	
+    });
+    </script>
+    
+    <script>
+    $(document).ready(function() 
+    {
+        $('footer').addClass('sticky2');    		
+    });
+    </script>
+   
+               
+    </head>
+    
+    <body>  
+        <header id="start">
+            <div id="instart"><i class="icon-globe"></i>dizzit 
+                <span style="color: #B54A35">P</span>oint 
+                <span style="color: #B54A35">o</span>f 
+                <span style="color: #B54A35">V</span>iew</div>
+        </header> 
+        <nav class="mnav">
+            <ol>
+                <li><a href="#">O stronie</a></li>
+                <li class="wyj">Działy
+                    <ul>
+                        <li><a href="#">Programowanie</a></li>
+                        <li><a href="#">Gitara</a></li>
+                        <li><a href="#">Bonsai</a></li>
+                        <li><a href="#">Samoloty</a></li>
+                        <li><a href="#">Plansze</a></li>
+                        <li><a href="#">Historia cywilizacji</a></li>
+                    </ul>
+                </li>
+                <li class="wyj">O autorze
+                    <ul>
+                        <li><a href="#">Co kodzi?</a></li>
+                        <li><a href="#">Co gra?</a></li>
+                        <li><a href="#">Co hoduje?</a></li>
+                        <li><a href="#">Gdzie bywa?</a></li>
+                        <li><a href="#">W co gra?</a></li>
+                        <li><a href="#">Co o tym?</a></li>
+                    </ul>
+                
+                
+                
+                
+                
+                </li>
+                <li><a href="#">Kontakt</a></li>
+            </ol>
+        </nav>
+        <div id="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            commodo risus justo, a luctus mi scelerisque a. Integer congue
+            ligula odio, a consequat enim sodales a. Nulla sit amet mauris diam.
+            Etiam rhoncus laoreet nulla, id pharetra est lacinia sit amet.
+            Vestibulum aliquet id ligula ac sodales. Interdum et malesuada fames
+            ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos. Quisque
+            facilisis risus faucibus, posuere nibh sed, porttitor purus.
+            Phasellus sagittis, velit et interdum tempor, ante neque pharetra
+            erat, eget ultrices massa risus at nibh. Ut libero mi, vehicula nec
+            metus ut, fringilla interdum nulla. Sed sit amet euismod odio. Morbi
+            accumsan sem eget turpis efficitur, volutpat vehicula ex mattis.
+            Suspendisse potenti.</p>
+
+            <p>Curabitur pretium, justo vel accumsan iaculis, nibh tortor maximus
+            justo, sed efficitur risus lorem a nunc. Morbi laoreet turpis neque,
+            non vehicula velit consequat a. Interdum et malesuada fames ac ante
+            ipsum primis in faucibus. Nulla mauris leo, aliquam vitae pharetra
+            eget, consequat eu justo. Proin porttitor sapien vel iaculis maximus.
+            Fusce eu mattis justo. Donec malesuada fringilla leo a egestas.
+            Donec vehicula magna nec sem blandit, ac vehicula nibh dignissim.
+            Phasellus dapibus nunc nec ligula maximus, ultrices porttitor purus
+            dapibus. Quisque ultricies neque vitae dolor euismod, non accumsan
+            nisl scelerisque. Ut condimentum sapien rhoncus, rhoncus odio
+            tincidunt, tempor justo. Aenean arcu nisi, lobortis a ullamcorper ac,
+            ultrices sed sem. Curabitur nec lobortis lacus. Praesent ullamcorper
+            quam ornare enim pellentesque, ac dictum erat posuere. Nam feugiat
+            ante id lacus pharetra pellentesque ac non lacus.</p>
+
+            <p>Maecenas pharetra faucibus imperdiet. Cras mattis leo id vulputate
+            sagittis. Sed sodales interdum arcu. Fusce vitae augue a libero
+            mattis vestibulum. Nullam placerat sapien et interdum hendrerit.
+            Pellentesque metus orci, interdum quis felis quis, ultrices feugiat
+            magna. Duis molestie lacus felis, a rhoncus dolor finibus ac. Etiam
+            efficitur, ex quis faucibus eleifend, purus risus cursus nibh, id
+            interdum lacus nunc vitae massa. Aenean dapibus massa et enim porta,
+            id condimentum urna ornare.</p>
+
+            <p>Mauris commodo enim quis justo accumsan pharetra. Nam eget dapibus
+            sapien, in laoreet ante. Donec aliquam erat id accumsan imperdiet.
+            Sed nec dignissim mauris. Praesent gravida non neque ac viverra.
+            Mauris hendrerit ligula sit amet fringilla sodales. Proin elementum
+            tellus eu aliquet vestibulum. Nullam vel hendrerit ante, et vehicula
+            purus. Curabitur euismod at ex viverra tincidunt. Phasellus commodo
+            id magna sed maximus. Nulla congue ultrices lobortis. Fusce
+            condimentum, sem in maximus facilisis, sem urna congue ante, a
+            vulputate mauris urna nec mauris.</p>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            commodo risus justo, a luctus mi scelerisque a. Integer congue
+            ligula odio, a consequat enim sodales a. Nulla sit amet mauris diam.
+            Etiam rhoncus laoreet nulla, id pharetra est lacinia sit amet.
+            Vestibulum aliquet id ligula ac sodales. Interdum et malesuada fames
+            ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos. Quisque
+            facilisis risus faucibus, posuere nibh sed, porttitor purus.
+            Phasellus sagittis, velit et interdum tempor, ante neque pharetra
+            erat, eget ultrices massa risus at nibh. Ut libero mi, vehicula nec
+            metus ut, fringilla interdum nulla. Sed sit amet euismod odio. Morbi
+            accumsan sem eget turpis efficitur, volutpat vehicula ex mattis.
+            Suspendisse potenti.</p>
+
+            <p>Curabitur pretium, justo vel accumsan iaculis, nibh tortor maximus
+            justo, sed efficitur risus lorem a nunc. Morbi laoreet turpis neque,
+            non vehicula velit consequat a. Interdum et malesuada fames ac ante
+            ipsum primis in faucibus. Nulla mauris leo, aliquam vitae pharetra
+            eget, consequat eu justo. Proin porttitor sapien vel iaculis maximus.
+            Fusce eu mattis justo. Donec malesuada fringilla leo a egestas.
+            Donec vehicula magna nec sem blandit, ac vehicula nibh dignissim.
+            Phasellus dapibus nunc nec ligula maximus, ultrices porttitor purus
+            dapibus. Quisque ultricies neque vitae dolor euismod, non accumsan
+            nisl scelerisque. Ut condimentum sapien rhoncus, rhoncus odio
+            tincidunt, tempor justo. Aenean arcu nisi, lobortis a ullamcorper ac,
+            ultrices sed sem. Curabitur nec lobortis lacus. Praesent ullamcorper
+            quam ornare enim pellentesque, ac dictum erat posuere. Nam feugiat
+            ante id lacus pharetra pellentesque ac non lacus.</p>
+
+            <p>Maecenas pharetra faucibus imperdiet. Cras mattis leo id vulputate
+            sagittis. Sed sodales interdum arcu. Fusce vitae augue a libero
+            mattis vestibulum. Nullam placerat sapien et interdum hendrerit.
+            Pellentesque metus orci, interdum quis felis quis, ultrices feugiat
+            magna. Duis molestie lacus felis, a rhoncus dolor finibus ac. Etiam
+            efficitur, ex quis faucibus eleifend, purus risus cursus nibh, id
+            interdum lacus nunc vitae massa. Aenean dapibus massa et enim porta,
+            id condimentum urna ornare.</p>
+
+            <p>Mauris commodo enim quis justo accumsan pharetra. Nam eget dapibus
+            sapien, in laoreet ante. Donec aliquam erat id accumsan imperdiet.
+            Sed nec dignissim mauris. Praesent gravida non neque ac viverra.
+            Mauris hendrerit ligula sit amet fringilla sodales. Proin elementum
+            tellus eu aliquet vestibulum. Nullam vel hendrerit ante, et vehicula
+            purus. Curabitur euismod at ex viverra tincidunt. Phasellus commodo
+            id magna sed maximus. Nulla congue ultrices lobortis. Fusce
+            condimentum, sem in maximus facilisis, sem urna congue ante, a
+            vulputate mauris urna nec mauris.</p>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            commodo risus justo, a luctus mi scelerisque a. Integer congue
+            ligula odio, a consequat enim sodales a. Nulla sit amet mauris diam.
+            Etiam rhoncus laoreet nulla, id pharetra est lacinia sit amet.
+            Vestibulum aliquet id ligula ac sodales. Interdum et malesuada fames
+            ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos. Quisque
+            facilisis risus faucibus, posuere nibh sed, porttitor purus.
+            Phasellus sagittis, velit et interdum tempor, ante neque pharetra
+            erat, eget ultrices massa risus at nibh. Ut libero mi, vehicula nec
+            metus ut, fringilla interdum nulla. Sed sit amet euismod odio. Morbi
+            accumsan sem eget turpis efficitur, volutpat vehicula ex mattis.
+            Suspendisse potenti.</p>
+
+            <p>Curabitur pretium, justo vel accumsan iaculis, nibh tortor maximus
+            justo, sed efficitur risus lorem a nunc. Morbi laoreet turpis neque,
+            non vehicula velit consequat a. Interdum et malesuada fames ac ante
+            ipsum primis in faucibus. Nulla mauris leo, aliquam vitae pharetra
+            eget, consequat eu justo. Proin porttitor sapien vel iaculis maximus.
+            Fusce eu mattis justo. Donec malesuada fringilla leo a egestas.
+            Donec vehicula magna nec sem blandit, ac vehicula nibh dignissim.
+            Phasellus dapibus nunc nec ligula maximus, ultrices porttitor purus
+            dapibus. Quisque ultricies neque vitae dolor euismod, non accumsan
+            nisl scelerisque. Ut condimentum sapien rhoncus, rhoncus odio
+            tincidunt, tempor justo. Aenean arcu nisi, lobortis a ullamcorper ac,
+            ultrices sed sem. Curabitur nec lobortis lacus. Praesent ullamcorper
+            quam ornare enim pellentesque, ac dictum erat posuere. Nam feugiat
+            ante id lacus pharetra pellentesque ac non lacus.</p>
+
+            <p>Maecenas pharetra faucibus imperdiet. Cras mattis leo id vulputate
+            sagittis. Sed sodales interdum arcu. Fusce vitae augue a libero
+            mattis vestibulum. Nullam placerat sapien et interdum hendrerit.
+            Pellentesque metus orci, interdum quis felis quis, ultrices feugiat
+            magna. Duis molestie lacus felis, a rhoncus dolor finibus ac. Etiam
+            efficitur, ex quis faucibus eleifend, purus risus cursus nibh, id
+            interdum lacus nunc vitae massa. Aenean dapibus massa et enim porta,
+            id condimentum urna ornare.</p>
+
+            <p>Mauris commodo enim quis justo accumsan pharetra. Nam eget dapibus
+            sapien, in laoreet ante. Donec aliquam erat id accumsan imperdiet.
+            Sed nec dignissim mauris. Praesent gravida non neque ac viverra.
+            Mauris hendrerit ligula sit amet fringilla sodales. Proin elementum
+            tellus eu aliquet vestibulum. Nullam vel hendrerit ante, et vehicula
+            purus. Curabitur euismod at ex viverra tincidunt. Phasellus commodo
+            id magna sed maximus. Nulla congue ultrices lobortis. Fusce
+            condimentum, sem in maximus facilisis, sem urna congue ante, a
+            vulputate mauris urna nec mauris.</p>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            commodo risus justo, a luctus mi scelerisque a. Integer congue
+            ligula odio, a consequat enim sodales a. Nulla sit amet mauris diam.
+            Etiam rhoncus laoreet nulla, id pharetra est lacinia sit amet.
+            Vestibulum aliquet id ligula ac sodales. Interdum et malesuada fames
+            ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos. Quisque
+            facilisis risus faucibus, posuere nibh sed, porttitor purus.
+            Phasellus sagittis, velit et interdum tempor, ante neque pharetra
+            erat, eget ultrices massa risus at nibh. Ut libero mi, vehicula nec
+            metus ut, fringilla interdum nulla. Sed sit amet euismod odio. Morbi
+            accumsan sem eget turpis efficitur, volutpat vehicula ex mattis.
+            Suspendisse potenti.</p>
+
+            <p>Curabitur pretium, justo vel accumsan iaculis, nibh tortor maximus
+            justo, sed efficitur risus lorem a nunc. Morbi laoreet turpis neque,
+            non vehicula velit consequat a. Interdum et malesuada fames ac ante
+            ipsum primis in faucibus. Nulla mauris leo, aliquam vitae pharetra
+            eget, consequat eu justo. Proin porttitor sapien vel iaculis maximus.
+            Fusce eu mattis justo. Donec malesuada fringilla leo a egestas.
+            Donec vehicula magna nec sem blandit, ac vehicula nibh dignissim.
+            Phasellus dapibus nunc nec ligula maximus, ultrices porttitor purus
+            dapibus. Quisque ultricies neque vitae dolor euismod, non accumsan
+            nisl scelerisque. Ut condimentum sapien rhoncus, rhoncus odio
+            tincidunt, tempor justo. Aenean arcu nisi, lobortis a ullamcorper ac,
+            ultrices sed sem. Curabitur nec lobortis lacus. Praesent ullamcorper
+            quam ornare enim pellentesque, ac dictum erat posuere. Nam feugiat
+            ante id lacus pharetra pellentesque ac non lacus.</p>
+
+            <p>Maecenas pharetra faucibus imperdiet. Cras mattis leo id vulputate
+            sagittis. Sed sodales interdum arcu. Fusce vitae augue a libero
+            mattis vestibulum. Nullam placerat sapien et interdum hendrerit.
+            Pellentesque metus orci, interdum quis felis quis, ultrices feugiat
+            magna. Duis molestie lacus felis, a rhoncus dolor finibus ac. Etiam
+            efficitur, ex quis faucibus eleifend, purus risus cursus nibh, id
+            interdum lacus nunc vitae massa. Aenean dapibus massa et enim porta,
+            id condimentum urna ornare.</p>
+
+            <p>Mauris commodo enim quis justo accumsan pharetra. Nam eget dapibus
+            sapien, in laoreet ante. Donec aliquam erat id accumsan imperdiet.
+            Sed nec dignissim mauris. Praesent gravida non neque ac viverra.
+            Mauris hendrerit ligula sit amet fringilla sodales. Proin elementum
+            tellus eu aliquet vestibulum. Nullam vel hendrerit ante, et vehicula
+            purus. Curabitur euismod at ex viverra tincidunt. Phasellus commodo
+            id magna sed maximus. Nulla congue ultrices lobortis. Fusce
+            condimentum, sem in maximus facilisis, sem urna congue ante, a
+            vulputate mauris urna nec mauris.</p>
+        </div>
+        <footer>Przyklejona stopka rewolucją (przewijaj dalej) &COPY;</footer>
+        
+    </body>
+</html>

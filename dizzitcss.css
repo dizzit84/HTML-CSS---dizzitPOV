@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-11-19, 13:16:45
+    Author     : E530
+*/
+body
+{
+background-color: #2F3440;
+margin: 0px;
+font-family: 'Exo 2', sans-serif;
+}
+#start
+{
+width: 100%;
+height: 160px;
+background-color: #3F5666;
+
+}
+#instart
+{
+    font-family: 'Bigelow Rules', cursive;
+    font-weight: 600;
+    text-align: left;
+    color: #F5E5C0;
+    font-size: 60px;
+    letter-spacing: 15px;
+    padding: 45px;        
+}
+.mnav
+{
+background-color: #F8CA4D;
+text-align: center;
+
+}
+#text
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-size:20px;
+    color: #F5E5C0;
+}
+
+ol
+{
+padding: 0px;
+margin: 0px;
+list-style-type: none;
+font-size: 25px;
+height: 70px;
+line-height: 200%;
+display: inline-block;
+}
+
+ol > li
+{
+float:left;
+padding: 10px 30px;
+border-left: 1px dotted #2F3440;
+width: 190px;
+height:50px;
+}
+ol > li:last-child
+{
+border-right: 1px dotted #2F3440;
+}
+ol > li:hover
+{
+background-color: #F5E5C0;
+}
+ol > .wyj
+{
+color:#2F3440;    
+}
+ol > .wyj:hover
+{
+background-color: #F8CA4D; 
+}
+ol > li > a
+{
+text-decoration: none;
+color: #2F3440;
+display: block;
+}
+ol > li:hover > a
+{
+color: #B54A35;
+}
+
+
+ol > .wyj > ul  /*nie wiem po co*/
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: none;
+height: 70px; /*nie wiem po co*/
+}
+
+ol > .wyj:hover > ul
+{
+display: block;
+}
+
+ol > .wyj > ul > li
+{
+background-color: #F8CA4D;
+position: relative;
+z-index: 100;
+border-top: 1px dotted #2F3440;
+border-left: 3px solid #B54A35;
+height:60px;
+width:250px;
+padding-top:10px;
+}
+ol > .wyj > ul > li:first-child
+{
+border-top: 3px solid #B54A35;    
+}
+ol > .wyj > ul > li:hover
+{
+background-color: #F5E5C0;
+}
+ol > .wyj > ul > li > a
+{
+text-decoration: none;
+color: #2F3440;
+}
+ol > .wyj > ul > li:hover > a
+{
+	color: #B54A35;
+}
+footer
+{
+color: #3F5666;
+font-size: 20px;
+padding: 5px;
+background-color: #192229;
+text-align: center;
+}
+
+
+
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.sticky2
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 96%;
+	z-index: 101;
+}
+
+
+
+
+
+
+
+
